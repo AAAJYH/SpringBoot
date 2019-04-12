@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>
+    判断是否是游客：
+    <shiro:guest>
+        游客访问：<a href="/loginIndex" style="color:red;font-weight:bold;">去登陆</a>
+    </shiro:guest>
+    <shiro:user>
+        管理员：<shiro:principal/>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/exit" style="color:red;font-weight:bold;">退出登陆</a>
+    </shiro:user>
+</p>
+<p>
+    判断是否认证：
+    <shiro:authenticated>已认证</shiro:authenticated>
+    <shiro:notAuthenticated>未认证</shiro:notAuthenticated>
+</p>
+<p>
+    角色的判断：<br/>
+    shiro:hasRole:<shiro:hasRole name="role1">拥有role1角色</shiro:hasRole><br/>
+    shiro:hasAllRoles:<shiro:hasAllRoles name="role1,role2">拥有role1,role2</shiro:hasAllRoles><br/>
+    shiro:hasAnyRoles:<shiro:hasAnyRoles name="role1,role2">拥有role1或role2</shiro:hasAnyRoles><br/>
+    shiro:lacksRole:<shiro:lacksRole name="role3">不拥有role3角色</shiro:lacksRole><br/>
+</p>
+</body>
+</html>
