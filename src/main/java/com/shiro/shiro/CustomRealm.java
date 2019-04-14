@@ -11,8 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 自定义Realm
+ * 自定义realm
+ * @author jyh
+ * @date 2019/4/10
  */
+
 public class CustomRealm extends AuthorizingRealm{
 
     @Resource

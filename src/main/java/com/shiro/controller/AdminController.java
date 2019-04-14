@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * @author jyh
+ * @date 2019/4/10
+ */
+
 @Controller
 public class AdminController {
 

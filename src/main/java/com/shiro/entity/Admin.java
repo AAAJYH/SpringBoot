@@ -2,6 +2,11 @@ package com.shiro.entity;
 
 import lombok.Data;
 
+/**
+ * @author jyh
+ * @date 2019/4/10
+ */
+
 @Data
 public class Admin {
 
