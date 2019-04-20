@@ -1,4 +1,4 @@
-package com.redis;
+package com.redis.junit;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -58,7 +58,6 @@ public class RedisTest {
         while(iterator.hasNext()) {
             logger.info("allKey："+iterator.next());
         }
-
 
     }
 

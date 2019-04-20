@@ -1,23 +1,26 @@
-package com.redis;
+package com.redis.junit;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
 
 /**
  * @Author: jyh
- * @Date: 2019/4/15 19:53
+ * @Date: 2019/4/15 20:43
  */
-public class RedisPubTest {
+
+public class RedisPub {
+
+    private Logger logger = LoggerFactory.getLogger(RedisPub.class);
 
     @Test
     public void pub() {
-        System.out.println("发布者");
+        logger.info("------发布者------");
         Jedis jedis = null;
-        try {
+        try{
             jedis = new Jedis("127.0.0.1", 6379);
-
-            jedis.publish("new.share", "新闻分享");
-            jedis.publish("new.blog", "新闻博客");
+            jedis.publish("channelOne", "你好啊");
         }catch(Exception e) {
             e.printStackTrace();
         }finally {
