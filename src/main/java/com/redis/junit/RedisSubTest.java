@@ -9,9 +9,9 @@ import redis.clients.jedis.Jedis;
  * @Author: jyh
  * @Date: 2019/4/15 20:40
  */
-public class RedisSub {
+public class RedisSubTest {
 
-    private Logger logger = LoggerFactory.getLogger(RedisPub.class);
+    private Logger logger = LoggerFactory.getLogger(RedisPubTest.class);
 
     @Test
     public void sub() {
