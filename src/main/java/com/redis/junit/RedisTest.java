@@ -43,7 +43,7 @@ public class RedisTest {
             logger.info("set："+ str);
         }
 
-        Map<String,String> map = new HashMap<String,String>();
+        Map<String,String> map = new HashMap<String,String>(10);
         map.put("put1", "val1");
         map.put("put2", "val2");
         jedis.hmset("map", map);
