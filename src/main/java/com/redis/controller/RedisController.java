@@ -65,7 +65,8 @@ public class RedisController {
 
     @RequestMapping("/publish")
     public String publish() {
-        for (int i = 0; i < 10; i++) {
+        int number = 10;
+        for (int i = 0; i < number; i++) {
             /** 向指定通道发送消息 */
             redisTemplate.convertAndSend("myTopic", "这是我发的第"+ i +"条消息");
         }
