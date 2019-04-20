@@ -10,9 +10,9 @@ import redis.clients.jedis.Jedis;
  * @Date: 2019/4/15 20:43
  */
 
-public class RedisPub {
+public class RedisPubTest {
 
-    private Logger logger = LoggerFactory.getLogger(RedisPub.class);
+    private Logger logger = LoggerFactory.getLogger(RedisPubTest.class);
 
     @Test
     public void pub() {
