@@ -9,6 +9,7 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 延时队列实现订单超时处理
  * @Author: jyh
  * @Date: 2019/4/20 9:00
  */
@@ -18,7 +19,7 @@ public class DelayOrder implements Delayed{
 
     private int orderId;
     private Date orderTime;
-    private Long EXPIRE_TIME = 5000L;
+    private Long expireTime = 5000L;
 
     public static DelayQueue<DelayOrder> delayQueue;
     static {
@@ -27,8 +28,8 @@ public class DelayOrder implements Delayed{
 
     @Override
     public long getDelay(TimeUnit unit) {
-        System.out.println(orderTime.getTime() + EXPIRE_TIME - System.currentTimeMillis()+ "fdsf");
-        return  this.orderTime.getTime() + EXPIRE_TIME - System.currentTimeMillis();
+        System.out.println(orderTime.getTime() + expireTime - System.currentTimeMillis()+ "毫秒");
+        return  this.orderTime.getTime() + expireTime - System.currentTimeMillis();
     }
 
     @Override
@@ -62,6 +63,7 @@ public class DelayOrder implements Delayed{
     private static void consum() {
             while(true) {
                 try {
+
                     /** take()：底层取队列中第一个元素循环去判断getDelay是否小于零（是否超时）
                      *  第一个元素处理完后移除，下一个元素向前移位，DelayQueue为空时线程等待
                      */
