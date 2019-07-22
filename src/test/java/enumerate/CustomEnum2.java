@@ -8,4 +8,6 @@ package enumerate;
  */
 
 public class CustomEnum2 {
+
+
 }

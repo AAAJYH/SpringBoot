@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+spring:
+
+  #RabbitMQ配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true #消息发送到交换机确认机制，是否确认回调
+    publisher-returns: true #交换机路由队列确认机制，失败时是否回调
+    listener:
+      simple:
+        prefetch: 1 #消费者每次提取消息的数量，处理成功后在提取下一条，防止消息阻塞
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot?characterEncoding=utf8&useSSL=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: qwe123
+
+  mvc:
+    view:
+      suffix: .html
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+
+
