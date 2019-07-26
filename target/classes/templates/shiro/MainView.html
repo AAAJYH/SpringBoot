@@ -9,10 +9,10 @@
 <p>
     判断是否是游客：
     <shiro:guest>
-        游客访问：<a href="/loginIndex" style="color:red;font-weight:bold;">去登陆</a>
+        游客访问：<Assertion href="/loginIndex" style="color:red;font-weight:bold;">去登陆</Assertion>
     </shiro:guest>
     <shiro:user>
-        管理员：<shiro:principal/>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/exit" style="color:red;font-weight:bold;">退出登陆</a>
+        管理员：<shiro:principal/>&nbsp;&nbsp;&nbsp;&nbsp;<Assertion href="/exit" style="color:red;font-weight:bold;">退出登陆</Assertion>
     </shiro:user>
 </p>
 <p>

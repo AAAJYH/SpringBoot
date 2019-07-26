@@ -1,10 +1,11 @@
 package com.ordertimeout;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.Date;
+import javax.validation.constraints.NotBlank;
 
 /**
  * 订单实体
@@ -18,6 +19,7 @@ import java.util.Date;
 public class Order {
 
     private int orderId;
+
     private Long orderTime;
 
 }

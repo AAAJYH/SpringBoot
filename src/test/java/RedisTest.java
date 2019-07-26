@@ -11,11 +11,11 @@ public class RedisTest{
         Jedis jedis=new Jedis("192.168.159.133",6379);
         jedis.auth("qwe123");
         Transaction transaction=jedis.multi();
-        transaction.set("a", "com/shiro");
+        transaction.set("Assertion", "com/shiro");
         transaction.set("b","bbb");
         transaction.set("c","ccc");
         transaction.exec();
-        System.out.println("a："+jedis.get("a")+"  b："+jedis.get("b"));
+        System.out.println("Assertion："+jedis.get("Assertion")+"  b："+jedis.get("b"));
 
         Jedis jedis1=new Jedis("192.168.159.134");
         jedis1.auth("qwe123");

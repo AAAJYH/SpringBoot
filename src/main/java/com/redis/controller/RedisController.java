@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  * @Date: 2019/4/17 11:07
  */
 
-@RestController
+//@RestController
 public class RedisController {
 
     Logger logger = LoggerFactory.getLogger(RedisController.class);

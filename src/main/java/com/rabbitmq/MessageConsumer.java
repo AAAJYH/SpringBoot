@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  *
  */
 
-@Component
+//@Component
 public class MessageConsumer {
 
     Logger logger = LoggerFactory.getLogger(MessageConsumer.class);
