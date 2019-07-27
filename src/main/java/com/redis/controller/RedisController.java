@@ -1,15 +1,18 @@
 package com.redis.controller;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.data.redis.support.atomic.RedisAtomicDouble;
+import org.springframework.data.redis.support.atomic.RedisAtomicInteger;
+import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -17,10 +20,10 @@ import java.util.concurrent.TimeUnit;
  * @Date: 2019/4/17 11:07
  */
 
-//@RestController
+@RestController
+@Api(tags = "Redis控制层")
+@Log4j2
 public class RedisController {
-
-    Logger logger = LoggerFactory.getLogger(RedisController.class);
 
     /**
          redisTemplate.opsForValue();//操作字符串
@@ -36,6 +39,18 @@ public class RedisController {
     @Autowired
     StringRedisTemplate stringRedisTemplate;
 
+    @ApiOperation(value = "获取Redis自增id")
+    @RequestMapping("getAutoIncrement")
+    private Long getAutoIncrement(String key) {
+        RedisAtomicLong redisAtomicLong = new RedisAtomicLong(key, redisTemplate.getConnectionFactory());
+        Long counter = redisAtomicLong.incrementAndGet();
+        if(counter.equals(1L)) {
+            System.out.println("设置过期时间为1天");
+            redisAtomicLong.expire(5, TimeUnit.SECONDS);
+        }
+        return counter;
+    }
+
     @GetMapping
     public String redisTest() {
         try{
@@ -44,7 +59,7 @@ public class RedisController {
 
             /** 设置过期时间，单位分钟 */
             redisTemplate.opsForValue().set("name", "abc", 1, TimeUnit.MINUTES);
-            logger.info("name："+ redisTemplate.opsForValue().get("name"));
+            log.info("name："+ redisTemplate.opsForValue().get("name"));
 
             stringRedisTemplate.opsForValue().set("key","hello world");
             stringRedisTemplate.opsForValue().set("key","redis", 6);
@@ -52,7 +67,7 @@ public class RedisController {
 
             /** 覆写指定Key的字符串，从偏移量offset开始 */
             redisTemplate.opsForValue().set("name", "def", 2);
-            logger.info("name："+ redisTemplate.opsForValue().get("name"));
+            log.info("name："+ redisTemplate.opsForValue().get("name"));
 
         }catch(Exception e) {
             e.printStackTrace();

@@ -5,10 +5,9 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
- * \* Author: 姬雨航
- * \* Date: 2019/7/24 15:43
- * \* Description：
- * \
+ * Author: 姬雨航
+ * Date: 2019/7/24 15:43
+ * Description：
  */
 
 @Data
