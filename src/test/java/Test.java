@@ -9,9 +9,13 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        String a = "magnet:?xt=urn:btih:";
-        String b = "0002405ceeb0de28e3e05ddc901038081a36d99e";
-        System.out.println(a+b);
+//        String a = "magnet:?xt=urn:btih:";
+//        String b = "0002405ceeb0de28e3e05ddc901038081a36d99e";
+//        System.out.println(a+b);
+
+        String c = null;
+    System.out.println(c != null);
+
     }
 
 }
