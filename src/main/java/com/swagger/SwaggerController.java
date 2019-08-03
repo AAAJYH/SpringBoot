@@ -9,17 +9,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * \* Author: 姬雨航
- * \* Date: 2019/7/24 15:43
- * \* Description：
- * \
- */
-
-/**
+ * @author: 姬雨航
+ * @date: 2019/7/24 15:43
+ * @description：
+ *
  * @Api：用于类
  * value：接口
  * tags：说明标签
  */
+
 @Api(tags = "swagger测试controller")
 @RestController
 @RequestMapping("/SwaggerController/")

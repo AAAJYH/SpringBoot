@@ -11,10 +11,9 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * \* Author: 姬雨航
- * \* Date: 2019/7/24 15:42
- * \* Description：
- * \
+ * @author: 姬雨航
+ * @date: 2019/7/24 15:42
+ * @description：
  */
 
 @EnableSwagger2

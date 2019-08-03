@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,13 +10,19 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-//        String a = "magnet:?xt=urn:btih:";
-//        String b = "0002405ceeb0de28e3e05ddc901038081a36d99e";
-//        System.out.println(a+b);
+        List list = new ArrayList();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
 
-        String c = null;
-    System.out.println(c != null);
+        List list1 = new ArrayList();
+        list1.add(1);
+        list1.add(3);
 
+        list.removeAll(list1);
+        System.out.println(list.size());
     }
 
 }

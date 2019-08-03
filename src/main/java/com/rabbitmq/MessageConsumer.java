@@ -6,12 +6,11 @@ import org.springframework.stereotype.Component;
 
 /**
  * 消费者
- * @Author: jyh
- * @Date: 2019/4/1 11:05
+ * @author: jyh
+ * @date: 2019/4/1 11:05
  *
  */
 
-//@Component
 public class MessageConsumer {
 
     Logger logger = LoggerFactory.getLogger(MessageConsumer.class);
