@@ -16,10 +16,11 @@ spring:
 #        prefetch: 1 #消费者每次提取消息的数量，处理成功后在提取下一条，防止消息阻塞
 
   datasource:
-    url: jdbc:mysql://localhost:3306/springboot?characterEncoding=utf8&useSSL=true
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: qwe123
+
 
   mvc:
     view:
@@ -31,7 +32,3 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/test
-
-
-
-
