@@ -12,11 +12,13 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AsyncServiceImpl implements AsyncService {
-
     Logger logger = LoggerFactory.getLogger(AsyncService.class);
 
-    @Async("taskExecutor")
+    /**
+     * 异步
+     */
     @Override
+    @Async("taskExecutor")
     public void executeAsync() {
         logger.info("start executeAsync");
         try{
@@ -26,5 +28,4 @@ public class AsyncServiceImpl implements AsyncService {
         }
         logger.info("end executeAsync");
     }
-
 }

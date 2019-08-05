@@ -8,6 +8,6 @@ package com.jyh.threadpool;
 public interface AsyncService {
 
     /** 异步 */
-    void executeAsync();
+   public void executeAsync();
 
 }

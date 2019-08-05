@@ -12,19 +12,10 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        List list = new ArrayList();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
+        Integer a = 1000;
+        Integer b = 1000;
 
-        List list1 = new ArrayList();
-        list1.add(1);
-        list1.add(3);
-
-        list.removeAll(list1);
-        System.out.println(list.size());
+        System.out.println(a == b);
     }
 
 }

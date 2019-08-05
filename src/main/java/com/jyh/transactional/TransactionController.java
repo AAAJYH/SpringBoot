@@ -43,8 +43,10 @@ public class TransactionController {
         TransactionPojo pojo = new TransactionPojo(18, "横七");
         int count = transactionDao.insert(pojo);
 
+        int i = 1/0;
+
         //回滚
-        transactionManager.rollback(status);
+        transactionManager.commit(status);
 
         return count;
     }

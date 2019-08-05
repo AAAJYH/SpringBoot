@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.jyh.base.BaseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.193 s <<< FAILURE! - in com.jyh.base.BaseTest
+initializationError(com.jyh.base.BaseTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+
