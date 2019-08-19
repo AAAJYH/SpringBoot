@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.TransactionStatus;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.DefaultTransactionDefinition;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,8 +29,8 @@ public class TransactionController {
     TransactionDao transactionDao;
 
     @PostMapping("add")
+    @Transactional
     public int add() {
-
         DefaultTransactionDefinition definition = new DefaultTransactionDefinition();
 
         //隔离级别
@@ -42,7 +43,6 @@ public class TransactionController {
 
         TransactionPojo pojo = new TransactionPojo(18, "横七");
         int count = transactionDao.insert(pojo);
-
         int i = 1/0;
 
         //回滚
