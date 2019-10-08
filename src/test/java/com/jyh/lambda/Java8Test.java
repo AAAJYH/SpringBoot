@@ -1,17 +1,7 @@
 package com.jyh.lambda;
 
 import org.junit.Test;
-import org.omg.CORBA.StringHolder;
-
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.sql.SQLOutput;
 import java.util.*;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
 
 /**
  * @author: jyh
@@ -68,6 +58,49 @@ public class Java8Test {
     public void test3() {
         String s  = new String("1") + new String("2");
         System.out.println(s.intern() == s);
+    }
+
+    @Test
+    public void test4() {
+
+        //List遍历
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+        list.forEach(item -> {
+            System.out.println(item);
+        });
+
+        //Map遍历
+        Map<String, String> map = new HashMap<>();
+        map.put("name", "张三");
+        map.put("age", "25");
+        map.forEach((k, v) ->{
+            System.out.println("k：" + k + ", v："+ v);
+        });
+
+    }
+
+    @Test
+    public void test5() {
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(1, 1);
+        map.put(2, 2);
+        map.put(3, 3);
+        Iterator<Map.Entry<Integer, Integer>> it = map.entrySet().iterator();
+        while(it.hasNext()) {
+            Map.Entry<Integer, Integer> m = it.next();
+            if(m.getKey().equals(1)) {
+                it.remove();
+            }
+        }
+
+        System.out.println(map.size());
+    }
+
+    @Test
+    public void test6() {
+        int a = 1;
+        Integer b = 1;
+        System.out.println(a == b);
     }
 
 }
