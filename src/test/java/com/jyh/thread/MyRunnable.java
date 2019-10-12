@@ -6,21 +6,46 @@ package com.jyh.thread;
  * @description：
  */
 
-public class MyRunnable implements Runnable {
-    /**
-     * When an object implementing interface <code>Runnable</code> is used
-     * to create a thread, starting the thread causes the object's
-     * <code>run</code> method to be called in that separately executing
-     * thread.
-     * <p>
-     * The general contract of the method <code>run</code> is that it may
-     * take any action whatsoever.
-     *
-     * @see Thread#run()
-     */
-    @Override
-    public void run() {
-        System.out.println("implements Runnable");
+public class MyRunnable {
+
+    static private Object lock = new Object();
+
+    static private Runnable runnable1 = new Runnable() {
+        @Override
+        public void run() {
+            try{
+                synchronized(lock) {
+                    System.out.println("wait begin time = " +  System.currentTimeMillis());
+                    lock.wait(5000);
+                    System.out.println("wait end time = " + System.currentTimeMillis());
+                }
+            }catch(Exception e) {
+                e.printStackTrace();
+            }
+        }
+    };
+
+    static private Runnable runnable2 = new Runnable() {
+        @Override
+        public void run() {
+            synchronized(lock) {
+                System.out.println("notify begin time = " + System.currentTimeMillis());
+                lock.notify();
+                System.out.println("notify end time = " + System.currentTimeMillis());
+            }
+        }
+    };
+
+    public static void main(String[] args) {
+        try{
+            Thread t1 = new Thread(runnable1);
+            t1.start();
+            Thread.sleep(3000);
+            Thread t2 = new Thread(runnable2);
+            t2.start();
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

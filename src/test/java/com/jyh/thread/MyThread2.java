@@ -9,17 +9,17 @@ import java.util.Random;
  */
 
 public class MyThread2 extends Thread {
+    Object b = new Object();
 
-    private Service service;
-    private MyObject myObject;
-
-    public MyThread2(Service service, MyObject myObject) {
-        this.service = service;
-        this.myObject = myObject;
-    }
 
     public void run() {
-        myObject.speedPrintString();
+        try{
+            System.out.println("begin");
+            b.wait();
+            System.out.println("end");
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }
