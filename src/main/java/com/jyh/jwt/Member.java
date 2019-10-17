@@ -14,5 +14,6 @@ public class Member {
     private Integer id;
     private String nickName;
     private String avatar;
+    private String password;
 
 }
