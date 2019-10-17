@@ -10,15 +10,16 @@ import java.util.Random;
 
 public class MyThread extends Thread {
 
-    private Object lock;
+    private P p;
 
-    public MyThread(Object lock) {
-        this.lock = lock;
+    public MyThread(P p) {
+        this.p = p;
     }
 
     public void run() {
-        Service service = new Service();
-        service.testMethod(lock);
+        while(true) {
+            p.pushService();
+        }
     }
 
 }

@@ -1,6 +1,8 @@
 package com.jyh.thread;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+import java.io.IOException;
+import java.io.PipedInputStream;
+import java.io.PipedOutputStream;
 
 /**
  * @author: jyh
@@ -11,34 +13,27 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 public class Run {
 
     public static void main(String[] args) {
-//        try{
-//            Object lock = new Object();
-//            MyThread a = new MyThread(lock);
-//            a.start();
-//            MyThread2 b = new MyThread2(lock);
-//            b.start();
-//            MyThread3 c = new MyThread3(lock);
-//            c.start();
-//
-//            Thread.sleep(1000);
-//
-//            NotifyThread notifyThread = new NotifyThread(lock);
-//            notifyThread.start();
-//
-//        }catch(Exception e) {
-//            e.printStackTrace();
-//        }
-        String a = new String();
-        MyThread3 m = new MyThread3(a);
-        m.start();
+
         try{
-            Thread.sleep(3000);
+            WriteData writeData = new WriteData();
+            ReadData readData = new ReadData();
+
+            PipedInputStream inputStream = new PipedInputStream();
+            PipedOutputStream outputStream = new PipedOutputStream();
+
+            outputStream.connect(inputStream);
+
+            ThreadRead threadRead = new ThreadRead(readData, inputStream);
+            threadRead.start();
+
+            Thread.sleep(2000);
+
+            ThreadWrite threadWrite = new ThreadWrite(writeData, outputStream);
+            threadWrite.start();
         }catch (Exception e) {
             e.printStackTrace();
         }
-        m.a();
+
     }
-
-
 
 }

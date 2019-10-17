@@ -9,16 +9,16 @@ import java.util.Random;
  */
 
 public class MyThread2 extends Thread {
-    Object b = new Object();
 
+    private C c;
+
+    public MyThread2(C c) {
+        this.c = c;
+    }
 
     public void run() {
-        try{
-            System.out.println("begin");
-            b.wait();
-            System.out.println("end");
-        }catch(Exception e) {
-            e.printStackTrace();
+        while(true) {
+            c.popService();
         }
     }
 
