@@ -2,7 +2,7 @@
 //
 //import io.swagger.annotations.Api;
 //import io.swagger.annotations.ApiOperation;
-//import lombok.extern.log4j.Log4j2;
+//import lombokTest.extern.log4j.Log4j2;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.data.redis.core.RedisTemplate;
 //import org.springframework.data.redis.core.StringRedisTemplate;

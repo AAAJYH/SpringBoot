@@ -1,10 +1,6 @@
 package com.jyh;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
-import org.json.JSONString;
-
-import java.util.*;
+import org.apache.commons.lang.StringUtils;
 
 /**
  * @author: 姬雨航
@@ -16,12 +12,23 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Float f1 = new Float(-1.0f/0.0);
-        Float f2 = new Float(0.0/0.0);
-        Float f3 = 0.0f/0.0f;
-        System.out.println(f1+ " = " + f1.isNaN());
-        System.out.println(f2+ " = " + f2.isNaN());
-        System.out.println(f3+ " = " + f3.isNaN());
+//        String a = "123";
+//        String b = "123 ";
+//        String c = null;
+//        String d = " ";
+//        String e = "";
+//
+//        System.out.println(StringUtils.isBlank(a));
+//        System.out.println(StringUtils.isBlank(b));
+//        System.out.println(StringUtils.isBlank(c));
+//        System.out.println(StringUtils.isBlank(d));
+//        System.out.println(StringUtils.isBlank(e));
+
+        //比大小的时候一边为空会报空指针异常
+        Integer a = null;
+        System.out.println(1>a);
+
+
 
     }
 
