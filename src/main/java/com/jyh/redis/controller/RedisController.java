@@ -2,13 +2,11 @@
 //
 //import io.swagger.annotations.Api;
 //import io.swagger.annotations.ApiOperation;
-//import lombok.extern.log4j.Log4j2;
+//import lombokTest.extern.log4j.Log4j2;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.data.redis.core.RedisTemplate;
 //import org.springframework.data.redis.core.StringRedisTemplate;
 //import org.springframework.data.redis.core.ValueOperations;
-//import org.springframework.data.redis.support.atomic.RedisAtomicDouble;
-//import org.springframework.data.redis.support.atomic.RedisAtomicInteger;
 //import org.springframework.data.redis.support.atomic.RedisAtomicLong;
 //import org.springframework.web.bind.annotation.GetMapping;
 //import org.springframework.web.bind.annotation.RequestMapping;
@@ -46,7 +44,7 @@
 //        Long counter = redisAtomicLong.incrementAndGet();
 //        if(counter.equals(1L)) {
 //            System.out.println("设置过期时间为1天");
-//            redisAtomicLong.expire(5, TimeUnit.SECONDS);
+//            redisAtomicLong.expire(5, TimeUnit.MILLISECONDS);
 //        }
 //        return counter;
 //    }
