@@ -1,8 +1,11 @@
 package com.jyh.proxy.jdk;
 
+import sun.misc.ProxyGenerator;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Properties;
 
 /**
  * @author jyh
@@ -36,6 +39,7 @@ public class JDKDynamicProxy implements InvocationHandler {
     }
 
     public static void main(String[] args) {
+
         //保存生成的代理类的字节码文件
         System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
 
