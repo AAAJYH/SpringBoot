@@ -1,5 +1,8 @@
 package com.jyh;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.*;
 
 /**
@@ -10,10 +13,13 @@ import java.util.*;
 
 public class Test {
 
-    public static void main(String[] args) {
-        String a = "a;b;c";
-        String[] b = a.split(";");
-        System.out.println(b[2]);
+    public static void main(String[] args) throws IOException {
+        Runtime runtime = Runtime.getRuntime();
+        String path = "D:\\BianCheng\\Idea\\Project\\SpringBoot";
+        runtime.exec("git checkout master",null, new File(path));
+        runtime.exec("git checkout -b a",null, new File(path));
+        runtime.exec("git push a",null, new File(path));
+        runtime.exit(0);
     }
 
 }
