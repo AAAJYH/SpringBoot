@@ -1,7 +1,14 @@
 package com.jyh;
 
+<<<<<<< HEAD
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+=======
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.util.*;
+>>>>>>> cda84d1e374a2e18fa54dc5df9169a09bc5c9d5c
 
 /**
  * @author: 姬雨航
@@ -11,6 +18,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class Test {
 
+<<<<<<< HEAD
     public static void main(String[] args) {
 
         System.out.println(Test.md5Password("123"));
@@ -55,6 +63,15 @@ public class Test {
 
         //比大小的时候一边为空会报空指针异常
 
+=======
+    public static void main(String[] args) throws IOException {
+        Runtime runtime = Runtime.getRuntime();
+        String path = "D:\\BianCheng\\Idea\\Project\\SpringBoot";
+        runtime.exec("git checkout master",null, new File(path));
+        runtime.exec("git checkout -b a",null, new File(path));
+        runtime.exec("git push a",null, new File(path));
+        runtime.exit(0);
+>>>>>>> cda84d1e374a2e18fa54dc5df9169a09bc5c9d5c
     }
 
 }
