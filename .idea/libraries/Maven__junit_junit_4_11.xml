@@ -1,23 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: junit:junit:4.11">
     <CLASSES>
-<<<<<<< HEAD:.idea/libraries/Maven__junit_junit_4_12.xml
-      <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.11/junit-4.11.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.11/junit-4.11-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar!/" />
-=======
-      <root url="jar://$PROJECT_DIR$/../../../Maven/Repository/junit/junit/4.11/junit-4.11.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../Maven/Repository/junit/junit/4.11/junit-4.11-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../Maven/Repository/junit/junit/4.11/junit-4.11-sources.jar!/" />
->>>>>>> 913babbca39ca13ea69b622589697cbb8989b803:.idea/libraries/Maven__junit_junit_4_11.xml
+      <root url="jar://$USER_HOME$/.m2/repository/junit/junit/4.11/junit-4.11-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
