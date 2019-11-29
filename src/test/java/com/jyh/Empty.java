@@ -1,11 +1,13 @@
 package com.jyh;
 
 import org.apache.shiro.util.CollectionUtils;
+
+import java.io.Serializable;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Empty {
+public class Empty implements Serializable {
 
     public static void main(String[] args) throws ParseException {
 
