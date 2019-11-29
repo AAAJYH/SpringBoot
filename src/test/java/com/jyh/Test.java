@@ -1,5 +1,8 @@
 package com.jyh;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -14,12 +17,18 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) throws IOException {
+        boolean flag = true;
         Runtime runtime = Runtime.getRuntime();
         String path = "D:\\BianCheng\\Idea\\Project\\SpringBoot";
-        runtime.exec("git checkout master",null, new File(path));
-        runtime.exec("git checkout -b a",null, new File(path));
-        runtime.exec("git push a",null, new File(path));
-        runtime.exit(0);
+        File file = new File(path);
+        if (flag) {
+
+        }
+
+//        runtime.exec("git checkout master",null, file);
+//        runtime.exec("git checkout -b a",null, file);
+//        runtime.exec("git push origin a",null, file);
+//        runtime.exit(0);
     }
 
 }
