@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="GROUP_BY_SEVERITY" value="true" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2724d8d1-bd7c-41b2-9111-63a92a487f2b" name="Default Changelist" comment="jyh">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/ThemeContentBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/Test.class" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/SpringBoot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="fbbe229f-bb17-4cd4-bee7-847d8549b749" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/GenericClazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/ReflectClazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/TypeTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SpringBoot.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_59.xml" afterDir="false" />
@@ -62,7 +56,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" afterDir="false" />
@@ -159,150 +152,74 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKDynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/RealSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/RealSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SpringBoot.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/Empty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/People.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/HelloWorldCGLibImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/HelloWorldCGLibImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/lambda/StreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/lambda/StreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/lombokTest/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/lombokTest/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/lombokTest/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/cglib/HelloWorldCGLibImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/cglib/HelloWorldCGLibImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/JDKDynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/JDKDynamicProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/RealSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/RealSubject.class" afterDir="false" />
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
     </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SpringBoot" />
-  </component>
-<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jyh/transactional/TransactionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="113">
+              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKDynamicProxy.java">
+        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/org/springframework/spring-tx/5.0.4.RELEASE/spring-tx-5.0.4.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="401">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-=======
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toMap</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/MemberService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/JwtController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/TokenInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/TokenUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/a.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/UserImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/JwtUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/JwtConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/InterceptorConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/thread/Add.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Assertion.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lambda/Employee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombok/People.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombok/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombok/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/People.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lambda/Stream.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/serializable.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/serializable/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/serializable/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/serializable/Box.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/BBB.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/PostConstructTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/AAA.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/agency/UserService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/agency/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/UserServiceProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/UserServiceProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/HelloWorldJDKProxy.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/HelloWorldJDKProxyImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/UserServiceProxyFactory2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/HelloWorldCGLibImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/CGLibMethodInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/Subject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/RealSubject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKDynamicProxy.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/ThemeContentBO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/TypeTokenTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/People.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java" />
       </list>
     </option>
-  </component>
-=======
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -312,24 +229,17 @@
         <option name="userSettingsFile" value="D:\BianCheng\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="ProjectId" id="1UFfffVefr1lH77z4edZc4JQaIy" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-6" />
+    <option name="width" value="640" />
+    <option name="height" value="346" />
   </component>
-<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,6 +274,36 @@
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jyh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jyh" type="462c0819:PsiDirectoryNode" />
+              <item name="transactional" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,55 +325,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
-=======
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eshop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.transaction" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.jyh.transactional" />
-      <recent name="com.jyh" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jyh" />
-      <recent name="com.mongodb" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\BianCheng\Idea\Project\SpringBoot\src\test\java\com\jyh" />
-      <recent name="D:\BianCheng\Idea\Project\SpringBoot\src\test\resources" />
-    </key>
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -447,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.StreamTest.test9">
     <configuration name="JDKDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jyh.proxy.jdk.JDKDynamicProxy" />
       <module name="SpringBoot" />
@@ -461,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKInvocationHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.proxy.jdk.JDKInvocationHandler" />
+    <configuration name="TypeTokenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.TypeToken.TypeTokenTest" />
       <module name="SpringBoot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyh.proxy.jdk.*" />
+          <option name="PATTERN" value="com.jyh.TypeToken.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,41 +384,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.Test" />
+    <configuration name="StreamTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBoot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyh.*" />
+          <option name="PATTERN" value="com.jyh.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceProxyFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.proxy.jdk.UserServiceProxyFactory" />
-      <module name="SpringBoot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jyh.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceProxyFactory2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.proxy.cglib.UserServiceProxyFactory2" />
-      <module name="SpringBoot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jyh.proxy.cglib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.jyh.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.jyh.lambda.StreamTest" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -522,787 +409,357 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.StreamTest.test9" />
+        <item itemvalue="Application.TypeTokenTest" />
         <item itemvalue="Application.JDKDynamicProxy" />
-        <item itemvalue="Application.JDKInvocationHandler" />
-        <item itemvalue="Application.UserServiceProxyFactory2" />
-        <item itemvalue="Application.UserServiceProxyFactory" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\NING MEI\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2724d8d1-bd7c-41b2-9111-63a92a487f2b" name="Default Changelist" comment="" />
-      <created>1563515735371</created>
+      <changelist id="fbbe229f-bb17-4cd4-bee7-847d8549b749" name="Default Changelist" comment="" />
+      <created>1575003857968</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563515735371</updated>
-      <workItem from="1563515736815" duration="3306000" />
-      <workItem from="1563520195348" duration="1815000" />
-      <workItem from="1563526216314" duration="1527000" />
-      <workItem from="1563532501182" duration="1206000" />
-      <workItem from="1563587821639" duration="11000" />
-      <workItem from="1563588068373" duration="4174000" />
-      <workItem from="1563617538024" duration="2842000" />
-      <workItem from="1563759792308" duration="5990000" />
-      <workItem from="1563772790879" duration="6854000" />
-      <workItem from="1563844907415" duration="604000" />
-      <workItem from="1563847876285" duration="9179000" />
-      <workItem from="1563945962424" duration="13686000" />
-      <workItem from="1564021088976" duration="1908000" />
-      <workItem from="1564042280784" duration="2887000" />
-      <workItem from="1564056011364" duration="16666000" />
-      <workItem from="1564217949070" duration="2398000" />
-      <workItem from="1564365163742" duration="8923000" />
-      <workItem from="1564644024937" duration="287000" />
-      <workItem from="1564664759666" duration="3231000" />
-      <workItem from="1564714824638" duration="13562000" />
-      <workItem from="1564800733284" duration="22839000" />
-      <workItem from="1564905203491" duration="58530000" />
-      <workItem from="1565163059304" duration="16951000" />
-      <workItem from="1565247432541" duration="20401000" />
-      <workItem from="1565276813026" duration="12441000" />
-      <workItem from="1565662776115" duration="18496000" />
-      <workItem from="1565749619535" duration="2132000" />
-      <workItem from="1565764661740" duration="13561000" />
-      <workItem from="1566181123993" duration="225000" />
-      <workItem from="1566183192929" duration="1696000" />
-      <workItem from="1566442248971" duration="2534000" />
-      <workItem from="1566876603017" duration="650000" />
-      <workItem from="1566900829651" duration="598000" />
-      <workItem from="1567061773608" duration="612000" />
-      <workItem from="1567068698279" duration="658000" />
-      <workItem from="1569393037922" duration="12040000" />
-      <workItem from="1569488550870" duration="23029000" />
-      <workItem from="1569585446605" duration="1026000" />
-      <workItem from="1569727523574" duration="7870000" />
-      <workItem from="1569743793383" duration="6994000" />
-      <workItem from="1569812309148" duration="4444000" />
-      <workItem from="1569825265234" duration="7177000" />
-      <workItem from="1570501988768" duration="617000" />
-      <workItem from="1570513748050" duration="8014000" />
-      <workItem from="1570592320800" duration="599000" />
-      <workItem from="1570596283093" duration="222000" />
-      <workItem from="1570596646192" duration="97000" />
-      <workItem from="1570603819452" duration="7433000" />
-      <workItem from="1570689338775" duration="8480000" />
-      <workItem from="1570764457409" duration="15439000" />
-      <workItem from="1570857144248" duration="4414000" />
-      <workItem from="1571024241531" duration="3372000" />
-      <workItem from="1571111231862" duration="12155000" />
-      <workItem from="1571194597101" duration="11841000" />
-      <workItem from="1571282611808" duration="11713000" />
-      <workItem from="1571374122306" duration="12632000" />
-      <workItem from="1571642961868" duration="19991000" />
-      <workItem from="1571729403653" duration="10905000" />
-      <workItem from="1571808475413" duration="1108000" />
-      <workItem from="1571817145011" duration="2961000" />
-      <workItem from="1571901136739" duration="599000" />
-      <workItem from="1571979301129" duration="601000" />
-      <workItem from="1571985126896" duration="5185000" />
-      <workItem from="1572331556137" duration="10143000" />
-      <workItem from="1572497322710" duration="97000" />
-      <workItem from="1572499501172" duration="9199000" />
-      <workItem from="1572585420488" duration="37157000" />
-      <workItem from="1572859575767" duration="10356000" />
-      <workItem from="1573183787449" duration="5535000" />
-      <workItem from="1573444523358" duration="3702000" />
-      <workItem from="1573546497849" duration="1030000" />
-      <workItem from="1573616252139" duration="2773000" />
-      <workItem from="1573644024266" duration="1122000" />
-      <workItem from="1574050640380" duration="4702000" />
-      <workItem from="1574316622685" duration="1970000" />
-      <workItem from="1574670814961" duration="4248000" />
-      <workItem from="1574751495862" duration="14412000" />
-      <workItem from="1574826488614" duration="15543000" />
-<<<<<<< HEAD
-      <workItem from="1574997768986" duration="376000" />
-=======
-      <workItem from="1574957371435" duration="32000" />
-      <workItem from="1574957411114" duration="4961000" />
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
+      <updated>1575003857968</updated>
+      <workItem from="1575003861166" duration="1908000" />
+      <workItem from="1575005830178" duration="7695000" />
     </task>
-    <task id="LOCAL-00001" summary="Assert">
-      <created>1564221039285</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1564221039285</updated>
-    </task>
-    <task id="LOCAL-00002" summary="jyh">
-      <created>1564916318806</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564916318806</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-<<<<<<< HEAD
   <component name="TestHistory">
-    <history-entry file="StreamTest_test9 - 2019.11.04 at 20h 31m 55s.xml">
+    <history-entry file="StreamTest_test9 - 2019.11.29 at 15h 46m 20s.xml">
       <configuration name="StreamTest.test9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_test10 - 2019.11.05 at 22h 33m 56s.xml">
-      <configuration name="StreamTest.test10" configurationId="JUnit" />
+    <history-entry file="StreamTest_test9 - 2019.11.29 at 15h 50m 25s.xml">
+      <configuration name="StreamTest.test9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamTest_test10 - 2019.11.05 at 22h 34m 39s.xml">
-      <configuration name="StreamTest.test10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamTest_test10 - 2019.11.05 at 22h 42m 29s.xml">
-      <configuration name="StreamTest.test10" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BBB_test - 2019.11.25 at 16h 57m 16s.xml">
-      <configuration name="BBB.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BBB_test - 2019.11.25 at 16h 57m 55s.xml">
-      <configuration name="BBB.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_a - 2019.11.25 at 17h 02m 10s.xml">
-      <configuration name="Test.a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_a - 2019.11.25 at 17h 03m 14s.xml">
-      <configuration name="Test.a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostConstructTest_a - 2019.11.25 at 17h 08m 44s.xml">
-      <configuration name="PostConstructTest.a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProxyTest_find1 - 2019.11.26 at 15h 26m 56s.xml">
-      <configuration name="ProxyTest.find1" configurationId="JUnit" />
+    <history-entry file="StreamTest_test9 - 2019.11.29 at 15h 54m 38s.xml">
+      <configuration name="StreamTest.test9" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="599319000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="9603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19669509" />
-      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.18869936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.18869936" />
-      <window_info id="Web" order="7" sideWeight="0.5010846" side_tool="true" weight="0.18869936" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.45878524" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19088937" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3557484" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32321042" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.37310195" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.43600866" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22921109" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1641791" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.16151386" />
-      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.18869936" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.18869936" />
-      <window_info id="Web" order="7" sideWeight="0.5010846" side_tool="true" weight="0.18869936" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4262473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37744033" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31236443" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32321042" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.43600866" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.329718" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.329718" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22921109" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1641791" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
-    </layout-to-restore>
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
   </component>
-=======
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assert" />
-    <MESSAGE value="jyh" />
-    <option name="LAST_COMMIT_MESSAGE" value="jyh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jyh/jwt/InterceptorConfig.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="43" />
+          <url>jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/reflect/TypeToken.class</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jyh/jwt/JwtUtil.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="48" />
+          <url>jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/reflect/TypeToken.class</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jyh/jwt/UserServiceImpl.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="49" />
+          <url>jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/reflect/TypeToken.class</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jyh/jwt/InterceptorConfig.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jyh/jwt/UserServiceImpl.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java</url>
-          <line>202</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../Maven/Repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class</url>
-          <line>32</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/UserServiceProxyFactory.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="89" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/UserServiceProxyFactory.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Class.java</url>
-          <line>844</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKDynamicProxy.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Proxy.java</url>
-          <line>707</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Class.java</url>
-          <line>680</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Proxy.java</url>
-          <line>411</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/WeakCache.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="101" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/TypeTokenTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>wordList.stream()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-<<<<<<< HEAD
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="3209" column="32" selection-start-line="3209" selection-end-line="3210" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jyh/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="28" selection-start-line="28" selection-start-column="4" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/AAA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/BBB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/postConstruct/PostConstructTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/agency.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="462" selection-start-line="462" selection-end-line="462" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/ProxyTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/UserService.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/cglib/reflect/FastClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="101" column="56" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/UserServiceProxyFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/UserServiceProxyFactory2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/HelloWorldCGLibImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/cglib/CGLibMethodInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9306">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/RealSubject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/HelloWorldJDKProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/HelloWorldJDKProxyImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKInvocationHandler.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/reflect/Reflection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/JDKDynamicProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#1115#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#10469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/net/www/ParseUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="445" column="56" selection-start-line="445" selection-start-column="49" selection-end-line="445" selection-end-column="56" />
-          <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/nio/cs/ThreadLocalCoders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="62" selection-start-line="62" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/WeakCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2558">
-          <caret line="136" column="23" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="844" selection-start-line="844" selection-end-line="844" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/ref/ReferenceQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="530" column="27" selection-start-line="530" selection-start-column="27" selection-end-line="530" selection-end-column="27" />
-          <folding>
-            <element signature="e#11566#11567#0" expanded="true" />
-            <element signature="e#11597#11598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="165" column="18" selection-start-line="165" selection-start-column="15" selection-end-line="165" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="465" column="34" lean-forward="true" selection-start-line="465" selection-end-line="466" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/security/action/GetBooleanAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/security/AccessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="297" column="24" selection-start-line="297" selection-start-column="18" selection-end-line="297" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="117" column="83" selection-start-line="117" selection-start-column="83" selection-end-line="117" selection-end-column="83" />
-          <folding>
-            <element signature="e#4886#5809#0" expanded="true" />
-            <element signature="e#5808#5809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/StringTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="234" column="11" selection-start-line="234" selection-start-column="11" selection-end-line="234" selection-end-column="11" />
-          <folding>
-            <element signature="e#7978#7979#0" expanded="true" />
-            <element signature="e#8023#8024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/RealSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/ThemeContentBO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/proxy/jdk/JDKDynamicProxy.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4158">
+          <caret line="214" selection-start-line="214" selection-end-line="232" selection-end-column="54" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4554">
+          <caret line="232" column="23" selection-start-line="232" selection-start-column="23" selection-end-line="232" selection-end-column="23" />
+          <folding>
+            <element signature="e#7967#7968#0" expanded="true" />
+            <element signature="e#8013#8014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/reflect/TypeResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/reflect/TypeCapture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/reflect/TypeToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2499#2500#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#2613#2614#0" expanded="true" />
+            <element signature="e#3068#3069#0" expanded="true" />
+            <element signature="e#3107#3108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/alibaba/fastjson/1.2.59/fastjson-1.2.59.jar!/com/alibaba/fastjson/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/alibaba/fastjson/1.2.59/fastjson-1.2.59.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="378" column="28" selection-start-line="378" selection-start-column="28" selection-end-line="378" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/alibaba/fastjson/1.2.59/fastjson-1.2.59.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/TypeToken/TypeTokenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lombokTest/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1253" column="38" selection-start-line="1253" selection-start-column="38" selection-end-line="1253" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="498" column="24" selection-start-line="498" selection-start-column="24" selection-end-line="498" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="1313" column="48" lean-forward="true" selection-start-line="1313" selection-start-column="48" selection-end-line="1313" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lambda/Java8Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lambda/MyPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lambda/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="345" column="72" selection-start-line="345" selection-start-column="72" selection-end-line="345" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#2863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jyh/ordertimeout/DelayOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/lambda/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jyh/transactional/TransactionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/org/springframework/spring-tx/5.0.4.RELEASE/spring-tx-5.0.4.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
           <splitter-proportions>
@@ -1314,32 +771,6 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>SpringBoot</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
     </states>
   </component>
-=======
->>>>>>> 4ac1b88a956ec2d70137d2c535f905d0c7948f08
 </project>

@@ -338,6 +338,19 @@ public class StreamTest {
     @Test
     public void test9() {
         List<String> list = Arrays.asList("123", "456", "789", "1101", "212121", "asda", "3e3e", "2331eew");
+
+        /**
+         * toMap(param1, param2, param3)
+         * param1是Key，param2是value，param3是有重复的key进行合并
+         */
+        Map<Integer, String> map = list.stream().collect(Collectors.toMap(String::length, str ->str, (k1, k2) -> k1));
+        System.out.println(map);
+
+        /**
+         * 流分组
+         */
+        Map<Integer, List<String>> map1 = list.stream().collect(Collectors.groupingBy(String::length));
+
         Map<Integer, List<String>> s = list.stream().collect(Collectors.groupingBy(String::length));
         System.out.println(s);
         Map<Integer, List<String>> ss = list.stream().collect(Collectors.groupingBy(String::length, Collectors.toList()));
@@ -353,5 +366,7 @@ public class StreamTest {
         Stream<Integer> stream = Stream.generate(() -> random.nextInt(100));
         stream.forEach(t -> System.out.println(t));
     }
+
+
 
 }
