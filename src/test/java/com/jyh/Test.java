@@ -1,8 +1,8 @@
 package com.jyh;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.io.File;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.support.AbstractApplicationContext;
+
 import java.io.IOException;
 
 /**
@@ -14,13 +14,13 @@ import java.io.IOException;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        boolean flag = true;
-        Runtime runtime = Runtime.getRuntime();
-        String path = "D:\\BianCheng\\Idea\\Project\\SpringBoot";
-        File file = new File(path);
-        if (flag) {
 
-        }
+        Exception exception = new Exception();
+
+        RuntimeException runtimeException = new RuntimeException();
+
+        NullPointerException nullPointerException = new NullPointerException();
+
     }
 
 }
