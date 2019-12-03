@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.AbstractApplicationContext;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author: 姬雨航
@@ -15,12 +18,15 @@ public class Test {
 
     public static void main(String[] args) throws IOException {
 
-        Exception exception = new Exception();
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(-10);
+        list.add(30);
+        list.add(15);
 
-        RuntimeException runtimeException = new RuntimeException();
+        list.sort((a, b) -> a - b);
 
-        NullPointerException nullPointerException = new NullPointerException();
-
+        System.out.println(list);
     }
 
 }
