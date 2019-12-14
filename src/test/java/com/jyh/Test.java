@@ -1,13 +1,11 @@
 package com.jyh;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.support.AbstractApplicationContext;
-
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.lang.management.ManagementFactory;
+import java.lang.management.ThreadInfo;
+import java.lang.management.ThreadMXBean;
+import java.security.NoSuchAlgorithmException;
+import java.util.concurrent.LinkedTransferQueue;
 
 /**
  * @author: 姬雨航
@@ -17,32 +15,17 @@ import java.util.List;
 
 public class Test {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
 
-        List<Integer> list = new ArrayList<>();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.add(40);
-        list.add(50);
-        list.add(60);
+         // 获取java线程管理MXBean
+        ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
 
-//        Integer temp = list.get(0);
-//        list.set(0, list.get(4));
-//
-//
-//
-//        list.set(0, list.set(3, list.get(0)));
-//
-//        System.out.println(list);
+        //不需要获取同步的monitor和synchronized信息，仅获取线程和线程堆信息
+        ThreadInfo[] threadInfos = threadMXBean.dumpAllThreads(false, false);
 
-        Collections.shuffle(list);
-
-        list.sort((a, b) -> a - b);
-        System.out.println(list);
-
-
-
+        for (ThreadInfo threadInfo : threadInfos) {
+            System.out.println("[" + threadInfo.getThreadId() + "]" + threadInfo.getThreadName());
+        }
 
     }
 
