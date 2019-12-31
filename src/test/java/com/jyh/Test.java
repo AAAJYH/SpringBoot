@@ -6,6 +6,7 @@ import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
 import java.security.NoSuchAlgorithmException;
 import java.util.concurrent.LinkedTransferQueue;
+import java.util.concurrent.locks.*;
 
 /**
  * @author: 姬雨航
@@ -14,20 +15,33 @@ import java.util.concurrent.LinkedTransferQueue;
  */
 
 public class Test {
+    Lock lock = new ReentrantLock();
+    Condition condition = lock.newCondition();
 
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
 
-         // 获取java线程管理MXBean
-        ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
-
-        //不需要获取同步的monitor和synchronized信息，仅获取线程和线程堆信息
-        ThreadInfo[] threadInfos = threadMXBean.dumpAllThreads(false, false);
-
-        for (ThreadInfo threadInfo : threadInfos) {
-            System.out.println("[" + threadInfo.getThreadId() + "]" + threadInfo.getThreadName());
-        }
-
     }
+
+    public void conditionWait() {
+        lock.lock();
+        try {
+            condition.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public void conditionSignal() throws InterruptedException {
+        lock.lock();
+        try {
+             condition.signal();
+        }finally {
+            lock.unlock();
+        }
+    }
+
 
 }
 

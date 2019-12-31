@@ -16,13 +16,13 @@ import javax.annotation.Resource;
 public class AutowiredTest extends BaseTest {
 
     /**
-     * @Qualifier用来声明用哪一个实现类通过byName方式来注入
+     * 方法1：@Qualifier用来声明用哪一个实现类通过byName方式来注入
+     * 方法2：属性名为实现类注入的名称也可以
      * @不声明此注解默认会通过byType来注入会抛异常 expected single matching bean but found 2（期望是一个bean但找到了两个）
      */
 
     @Autowired
-    @Qualifier(value = "aInterfaceImpl")
-    AInterface aInterface;
+    AInterface aInterfaceImpl;
 
     @Autowired
     @Qualifier("bInterfaceImpl")
@@ -31,7 +31,7 @@ public class AutowiredTest extends BaseTest {
     @Test
     public void test() {
         System.out.println("11");
-        aInterface.msg();
+        aInterfaceImpl.msg();
         bInterface.msg();
     }
 
