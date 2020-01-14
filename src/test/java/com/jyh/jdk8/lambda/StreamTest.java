@@ -1,5 +1,7 @@
 package com.jyh.jdk8.lambda;
 
+import com.jyh.jwt.User;
+import com.jyh.反射.Person;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.assertj.core.util.Lists;
@@ -367,6 +369,18 @@ public class StreamTest {
         stream.forEach(t -> System.out.println(t));
     }
 
+    @Test
+    public void test11() {
+        String phone = "13461020531";
+        List<User> users = Arrays.asList(new User("fdskf", "13461020531"), new User("fdskf", "13461020531"));
+        // 有一个返回true就返回true
+        boolean flag1 = users.stream().anyMatch(user -> phone.equals(user.getPhone()));
+        // 全部返回true才返回true
+        boolean flag2 = users.stream().allMatch(user -> phone.equals(user.getPhone()));
+        // 都不为true才返回true
+        boolean flag3 = users.stream().noneMatch(user -> phone.equals(user.getPhone()));
 
+        System.out.println(flag1 + "  " + flag2 + "  " + flag3);
+    }
 
 }

@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbe229f-bb17-4cd4-bee7-847d8549b749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_janeluo_ikanalyzer_2012_u6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_4_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_4_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_4_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_4_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_4_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jyh/ik/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ik/extend.dic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ik/stopword.dic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/thread/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/分词查询/IKSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/BankWaterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/JoinCountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/SemaphoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jyh/jwt/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jyh/jwt/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jyh/jdk8/lambda/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jyh/jdk8/lambda/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jyh/jwt/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jyh/jwt/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/Java并发编程的艺术/AtomicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/Java并发编程的艺术/AtomicTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/移位运算符/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/移位运算符/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,10 +43,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jyh/ik/Config.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/TestRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="220">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/分词查询/IKSUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,77 +64,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/分词查询/IKSUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/jdk8/lambda/StreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="269">
+              <caret line="375" column="27" lean-forward="true" selection-start-line="375" selection-start-column="27" selection-end-line="375" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/反射/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3630">
-              <caret line="165" column="21" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/core/IKSegmenter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/META-INF/maven/com.janeluo/ikanalyzer/pom.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/META-INF/maven/com.janeluo/ikanalyzer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/cfg/Configuration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/cfg/DefaultConfig.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/dic/DictSegment.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="159">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,14 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Collection/list/arraylist/ArrayList常见问题.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/optional/OptionalTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/jdk8/lambda/optional/OptionalTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/jdk8/optional/OptionalTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/number/Int.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/IntegerCompare.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/数据类型/Integer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/ThemeContentBO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/时间类型/LocalTimeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/数据类型/IntegerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/数据类型/BigDecimalTest.java" />
@@ -230,8 +182,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/LockSupportTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/移位运算符/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/thread/ConcurrentHashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/extend.dic" />
         <option value="$PROJECT_DIR$/src/main/resources/ik/stopword.dic" />
@@ -240,6 +190,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/ext_dict.dic" />
         <option value="$PROJECT_DIR$/src/test/java/com/jyh/分词查询/IKSUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jyh/jwt/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/JoinCountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/CyclicBarrier.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/BankWaterService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jyh/jdk8/lambda/StreamTest.java" />
       </list>
     </option>
   </component>
@@ -252,7 +212,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -335,7 +295,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jyh" type="462c0819:PsiDirectoryNode" />
-              <item name="分词查询" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jyh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
@@ -474,13 +444,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IKSUtil">
-    <configuration name="IKSUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jyh.分词查询.IKSUtil" />
+  <component name="RunManager" selected="JUnit.StreamTest.test11">
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.Java并发编程的艺术.CyclicBarrierTest" />
       <module name="SpringBoot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyh.分词查询.*" />
+          <option name="PATTERN" value="com.jyh.Java并发编程的艺术.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -488,7 +458,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.Java并发编程的艺术.SemaphoreTest" />
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyh.Java并发编程的艺术.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierTest.b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBoot" />
       <extension name="coverage">
         <pattern>
@@ -497,24 +480,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jyh.Java并发编程的艺术" />
-      <option name="MAIN_CLASS_NAME" value="com.jyh.Java并发编程的艺术.AtomicTest" />
-      <option name="METHOD_NAME" value="a" />
+      <option name="MAIN_CLASS_NAME" value="com.jyh.Java并发编程的艺术.CyclicBarrierTest" />
+      <option name="METHOD_NAME" value="b" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringBoot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jyh.*" />
+          <option name="PATTERN" value="com.jyh.jdk8.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jyh" />
-      <option name="MAIN_CLASS_NAME" value="com.jyh.Test" />
-      <option name="METHOD_NAME" value="a" />
+      <option name="PACKAGE_NAME" value="com.jyh.jdk8.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.jyh.jdk8.lambda.StreamTest" />
+      <option name="METHOD_NAME" value="test11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -536,22 +519,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jyh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jyh" />
-      <option name="MAIN_CLASS_NAME" value="com.jyh.Test" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jyh.Run" />
@@ -560,20 +527,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IKSUtil" />
-      <item itemvalue="JUnit.Test.a" />
-      <item itemvalue="JUnit.Test.main" />
-      <item itemvalue="JUnit.Test.b" />
-      <item itemvalue="JUnit.AtomicTest.a" />
       <item itemvalue="Spring Boot.Run" />
+      <item itemvalue="JUnit.Test.b" />
+      <item itemvalue="Application.CyclicBarrierTest" />
+      <item itemvalue="JUnit.CyclicBarrierTest.b" />
+      <item itemvalue="Application.SemaphoreTest" />
+      <item itemvalue="JUnit.StreamTest.test11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IKSUtil" />
+        <item itemvalue="JUnit.StreamTest.test11" />
         <item itemvalue="JUnit.Test.b" />
-        <item itemvalue="JUnit.AtomicTest.a" />
-        <item itemvalue="JUnit.Test.main" />
-        <item itemvalue="JUnit.Test.a" />
+        <item itemvalue="Application.SemaphoreTest" />
+        <item itemvalue="JUnit.CyclicBarrierTest.b" />
+        <item itemvalue="Application.CyclicBarrierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -605,44 +572,44 @@
       <workItem from="1577697863532" duration="49218000" />
       <workItem from="1578366411222" duration="14363000" />
       <workItem from="1578451553747" duration="19756000" />
-      <workItem from="1578582413606" duration="1918000" />
+      <workItem from="1578582413606" duration="24371000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_a - 2020.01.07 at 14h 19m 18s.xml">
-      <configuration name="Test.a" configurationId="JUnit" />
+    <history-entry file="CyclicBarrierTest_b - 2020.01.14 at 12h 23m 07s.xml">
+      <configuration name="CyclicBarrierTest.b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_a - 2020.01.07 at 14h 21m 07s.xml">
-      <configuration name="Test.a" configurationId="JUnit" />
+    <history-entry file="CyclicBarrierTest_b - 2020.01.14 at 12h 24m 26s.xml">
+      <configuration name="CyclicBarrierTest.b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_a - 2020.01.07 at 14h 21m 29s.xml">
-      <configuration name="Test.a" configurationId="JUnit" />
+    <history-entry file="CyclicBarrierTest_b - 2020.01.14 at 12h 25m 01s.xml">
+      <configuration name="CyclicBarrierTest.b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_a - 2020.01.07 at 14h 43m 35s.xml">
-      <configuration name="Test.a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_main - 2020.01.07 at 15h 03m 59s.xml">
-      <configuration name="Test.main" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_b - 2020.01.07 at 15h 21m 49s.xml">
+    <history-entry file="Test_b - 2020.01.14 at 14h 19m 34s.xml">
       <configuration name="Test.b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_b - 2020.01.08 at 16h 27m 51s.xml">
+    <history-entry file="Test_b - 2020.01.14 at 14h 25m 12s.xml">
       <configuration name="Test.b" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AtomicTest_a - 2020.01.08 at 22h 48m 16s.xml">
-      <configuration name="AtomicTest.a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AtomicTest_a - 2020.01.08 at 23h 43m 08s.xml">
-      <configuration name="AtomicTest.a" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_b - 2020.01.09 at 00h 59m 21s.xml">
+    <history-entry file="Test_b - 2020.01.14 at 14h 32m 33s.xml">
       <configuration name="Test.b" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_b - 2020.01.14 at 14h 33m 39s.xml">
+      <configuration name="Test.b" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamTest_test11 - 2020.01.14 at 14h 47m 07s.xml">
+      <configuration name="StreamTest.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamTest_test11 - 2020.01.14 at 14h 47m 49s.xml">
+      <configuration name="StreamTest.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamTest_test11 - 2020.01.14 at 14h 48m 14s.xml">
+      <configuration name="StreamTest.test11" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251740000" />
+    <option name="totallyTimeSpent" value="274193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,10 +621,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17604166" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.15052083" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.15831557" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -667,7 +634,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3029661" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44915253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40783897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,7 +786,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/jyh/Test.java</url>
-          <line>74</line>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
@@ -831,7 +798,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/jyh/Test.java</url>
-          <line>38</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
@@ -854,322 +821,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="491" column="27" selection-start-line="491" selection-start-column="23" selection-end-line="491" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="513" column="2" lean-forward="true" selection-start-line="513" selection-start-column="2" selection-end-line="513" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="607" column="6" lean-forward="true" selection-start-line="607" selection-start-column="6" selection-end-line="607" selection-end-column="6" />
-          <folding>
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="129" column="31" lean-forward="true" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/TestRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="50" />
-          <folding>
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="835" column="23" selection-start-line="835" selection-start-column="23" selection-end-line="835" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/数据类型/IntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/reflect/CallerSensitive.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/thread/ConcurrentHashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/misc/VM.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="123" column="26" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/reflect/Reflection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="2618" column="31" selection-start-line="2618" selection-start-column="31" selection-end-line="2618" selection-end-column="31" />
-          <folding>
-            <element signature="e#32334#32335#0" expanded="true" />
-            <element signature="e#32385#32386#0" expanded="true" />
-            <element signature="e#39094#39095#0" expanded="true" />
-            <element signature="e#39146#39147#0" expanded="true" />
-            <element signature="e#42680#42681#0" expanded="true" />
-            <element signature="e#42719#42720#0" expanded="true" />
-            <element signature="e#44347#44348#0" expanded="true" />
-            <element signature="e#44395#44396#0" expanded="true" />
-            <element signature="e#65240#65241#0" expanded="true" />
-            <element signature="e#65287#65288#0" expanded="true" />
-            <element signature="e#93710#93711#0" expanded="true" />
-            <element signature="e#93797#93798#0" expanded="true" />
-            <element signature="e#112403#112404#0" expanded="true" />
-            <element signature="e#112458#112459#0" expanded="true" />
-            <element signature="e#117483#117484#0" expanded="true" />
-            <element signature="e#117520#117521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="185" column="34" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9642#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2227#2228#0" expanded="true" />
-            <element signature="e#2395#2396#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-            <element signature="e#4239#4240#0" expanded="true" />
-            <element signature="e#4304#4305#0" expanded="true" />
-            <element signature="e#4504#4505#0" expanded="true" />
-            <element signature="e#4572#4573#0" expanded="true" />
-            <element signature="e#4725#4726#0" expanded="true" />
-            <element signature="e#4793#4794#0" expanded="true" />
-            <element signature="e#4946#4947#0" expanded="true" />
-            <element signature="e#5015#5016#0" expanded="true" />
-            <element signature="e#5214#5215#0" expanded="true" />
-            <element signature="e#5290#5291#0" expanded="true" />
-            <element signature="e#8685#8686#0" expanded="true" />
-            <element signature="e#8731#8732#0" expanded="true" />
-            <element signature="e#8850#8851#0" expanded="true" />
-            <element signature="e#8878#8879#0" expanded="true" />
-            <element signature="e#9093#9094#0" expanded="true" />
-            <element signature="e#9127#9128#0" expanded="true" />
-            <element signature="e#9345#9346#0" expanded="true" />
-            <element signature="e#9380#9381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="147" column="47" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="47" />
-          <folding>
-            <element signature="e#4990#4991#0" expanded="true" />
-            <element signature="e#5047#5048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.ConcurrentLinkedQueue">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.ConcurrentLinkedQueue</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.AbstractCollection</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.util.AbstractQueue</node>
-            <node x="" y="">java.util.Queue</node>
-            <node x="" y="">java.lang.Iterable</node>
-            <node x="" y="">java.util.concurrent.ConcurrentLinkedQueue</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="180.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="332" column="29" selection-start-line="332" selection-start-column="29" selection-end-line="332" selection-end-column="29" />
-          <folding>
-            <element signature="e#7823#7824#0" expanded="true" />
-            <element signature="e#7887#7888#0" expanded="true" />
-            <element signature="e#7928#7929#0" expanded="true" />
-            <element signature="e#8014#8015#0" expanded="true" />
-            <element signature="e#8055#8056#0" expanded="true" />
-            <element signature="e#8125#8126#0" expanded="true" />
-            <element signature="e#8178#8179#0" expanded="true" />
-            <element signature="e#8264#8265#0" expanded="true" />
-            <element signature="e#10037#10038#0" expanded="true" />
-            <element signature="e#10084#10085#0" expanded="true" />
-            <element signature="e#11364#11365#0" expanded="true" />
-            <element signature="e#11395#11396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/数据类型/BigDecimalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/core/Lexeme.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="119" column="15" selection-start-line="119" selection-start-column="15" selection-end-line="119" selection-end-column="15" />
-          <folding>
-            <element signature="e#3255#3256#0" expanded="true" />
-            <element signature="e#3293#3294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ik/stopword.dic">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1187,16 +838,6 @@
             <element signature="e#177054#177055#0" expanded="true" />
             <element signature="e#177353#177354#0" expanded="true" />
             <element signature="e#177410#177411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1261,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/core/IKSegmenter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1303,13 +937,345 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/分词查询/IKSUtil.java">
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/janeluo/ikanalyzer/2012_u6/ikanalyzer-2012_u6.jar!/org/wltea/analyzer/core/IKSegmenter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="209">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="221" column="19" selection-start-line="221" selection-start-column="19" selection-end-line="221" selection-end-column="19" />
+          <folding>
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jyh/jwt/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="374" lean-forward="true" selection-start-line="374" selection-end-line="374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="149" column="28" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="84" column="51" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/AtomicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="290" column="23" selection-start-line="290" selection-start-column="23" selection-end-line="290" selection-end-column="23" />
+          <folding>
+            <element signature="e#5229#5230#0" expanded="true" />
+            <element signature="e#5268#5269#0" expanded="true" />
+            <element signature="e#9899#9900#0" expanded="true" />
+            <element signature="e#9936#9937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+          <folding>
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5047#5048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
+          <folding>
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/JoinCountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="31" column="20" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="4805" column="11" selection-start-line="4805" selection-start-column="11" selection-end-line="4805" selection-end-column="11" />
+          <folding>
+            <element signature="e#186747#186748#0" expanded="true" />
+            <element signature="e#186792#186793#0" expanded="true" />
+            <element signature="e#187224#187225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/BankWaterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="52" column="15" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="31" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="95" column="15" lean-forward="true" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1731" column="26" selection-start-line="1731" selection-start-column="26" selection-end-line="1731" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="485" column="9" selection-start-line="485" selection-start-column="9" selection-end-line="485" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="461" column="49" lean-forward="true" selection-start-line="461" selection-start-column="49" selection-end-line="461" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding>
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../Maven/Repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/util/concurrent/AbstractFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="e#3005#3006#0" expanded="true" />
+            <element signature="e#3058#3059#0" expanded="true" />
+            <element signature="e#4418#4419#0" expanded="true" />
+            <element signature="e#4476#4477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="289" column="35" lean-forward="true" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
+          <folding>
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#44444#44445#0" expanded="true" />
+            <element signature="e#44501#44502#0" expanded="true" />
+            <element signature="e#45599#45600#0" expanded="true" />
+            <element signature="e#45656#45657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="165" column="55" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
+          <folding>
+            <element signature="e#6228#6229#0" expanded="true" />
+            <element signature="e#6269#6270#0" expanded="true" />
+            <element signature="e#7915#7916#0" expanded="true" />
+            <element signature="e#7953#7954#0" expanded="true" />
+            <element signature="e#8009#8010#0" expanded="true" />
+            <element signature="e#8073#8074#0" expanded="true" />
+            <element signature="e#9084#9085#0" expanded="true" />
+            <element signature="e#9131#9132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Java并发编程的艺术/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/TestRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/分词查询/IKSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/反射/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.jyh.jdk8.lambda.StreamTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.jyh.jdk8.lambda.StreamTest</OriginalElement>
+          <nodes>
+            <node x="" y="">com.jyh.jdk8.lambda.StreamTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="57.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jyh/jdk8/lambda/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="375" column="27" lean-forward="true" selection-start-line="375" selection-start-column="27" selection-end-line="375" selection-end-column="27" />
         </state>
       </provider>
     </entry>

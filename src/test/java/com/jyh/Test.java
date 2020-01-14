@@ -28,7 +28,11 @@ public class Test extends BaseTest {
 
     @org.junit.Test
     public void b() {
+        System.out.println(1 ^ 0);
+        System.out.println(0 ^ 0);
 
+        List a = Collections.singletonList(1);
+        System.out.println(a.get(0));
         List list = Arrays.asList(1, 2);
 
         list.add(1);
@@ -50,6 +54,7 @@ public class Test extends BaseTest {
         l.add(person);
 
         System.out.println(l);
+        new ArrayList<>(null);
     }
 
 //    public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
