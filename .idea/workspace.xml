@@ -4,13 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2724d8d1-bd7c-41b2-9111-63a92a487f2b" name="Default Changelist" comment="jyh">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/线程池/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jyh/线程池/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/JDKDynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jyh/proxy/jdk/JDKDynamicProxy.class" afterDir="false" />
-    </list>
+    <list default="true" id="2724d8d1-bd7c-41b2-9111-63a92a487f2b" name="Default Changelist" comment="jyh" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,6 +305,7 @@
       <workItem from="1580179877201" duration="1831000" />
       <workItem from="1580181847480" duration="610000" />
       <workItem from="1580349274855" duration="2191000" />
+      <workItem from="1581235881121" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="Assert">
       <created>1564221039285</created>
