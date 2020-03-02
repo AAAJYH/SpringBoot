@@ -40,7 +40,7 @@
           <entry key="class" value="5" />
           <entry key="iml" value="1" />
           <entry key="java" value="99" />
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -49,20 +49,20 @@
           <entry key="CLASS" value="5" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="99" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="7020" />
-          <entry key="md" value="28" />
+          <entry key="md" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="7020" />
-          <entry key="Markdown" value="28" />
+          <entry key="Markdown" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +78,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/jyh-hobbit.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jyh.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -88,8 +88,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/jyh.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jyh-hobbit.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
@@ -294,7 +294,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583140330330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583140451174" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../git-practise" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -439,7 +439,7 @@
       <workItem from="1582283059970" duration="148000" />
       <workItem from="1582284538773" duration="15865000" />
       <workItem from="1582590042706" duration="2678000" />
-      <workItem from="1582781294145" duration="12629000" />
+      <workItem from="1582781294145" duration="12753000" />
     </task>
     <servers />
   </component>
@@ -476,7 +476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79102000" />
+    <option name="totallyTimeSpent" value="79226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1018,7 +1018,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/jyh-hobbit.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor>
+            <caret column="5" selection-start-column="5" selection-end-column="5" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -1026,9 +1028,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/jyh.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="5" selection-start-column="5" selection-end-column="5" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
