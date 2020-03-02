@@ -158,8 +158,6 @@ public class Test extends BaseTest {
         System.out.println(a);
         b(a);
         System.out.println(a);
-        System.out.println("111");
-        System.out.println("222");
     }
     private void b(Double a) {
         a = 23.01;
