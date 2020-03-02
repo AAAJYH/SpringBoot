@@ -9,7 +9,7 @@ package com.jyh.proxy.cglib;
 public class HelloWorldCGLibImpl {
 
     public void showCGLibMsg() {
-        System.out.println("CGLibMsg Test Success");
+        System.out.println("CGLibMsg TypeToken Success");
     }
 
 }

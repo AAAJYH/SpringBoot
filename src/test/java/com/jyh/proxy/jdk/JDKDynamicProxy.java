@@ -1,21 +1,14 @@
 package com.jyh.proxy.jdk;
 
-import com.jyh.thread.Sub;
-import sun.misc.ProxyGenerator;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.Properties;
 
 /**
  * @author jyh
  * @date 2019/11/27
- * @description
- * 次实现InvocationHandler相当于在要执行的方法前后加一些其他代码
- * Proxy类的apply方法会生成一个代理类，加载到jvm中，设置saveGeneratedFiles属性为true可以如磁盘，
- * 代理类重写了interface所有的方法包括equals、hashcode等，重写的方法中调用的是实现InvocationHandler的invoke方法
  *
+
  */
 
 public class JDKDynamicProxy implements InvocationHandler {

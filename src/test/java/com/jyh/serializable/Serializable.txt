@@ -1,0 +1,6 @@
+（1）Serializable序列化：
+                        在进行io操作或者通络通信要在网络中传送对象时要实现serializable，把对象转换成字节序列变成一长串的字节（byte）
+
+（2）serialVersionUID：
+                    serialVersionUID对序列化类的一个标识，在反序列化的时候通过serialVersionUID来确定哪个类来加载这个对象当然如果写jvm会默认生成一个serialVersionUID，
+                    这样就会导致其于编译器耦合，最好现实的声明serialVersionUID

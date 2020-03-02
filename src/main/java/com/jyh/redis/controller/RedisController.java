@@ -78,8 +78,8 @@
 //
 //    @RequestMapping("/publish")
 //    public String publish() {
-//        int number = 10;
-//        for (int i = 0; i < number; i++) {
+//        int 数据类型 = 10;
+//        for (int i = 0; i < 数据类型; i++) {
 //            /** 向指定通道发送消息 */
 //            redisTemplate.convertAndSend("myTopic", "这是我发的第"+ i +"条消息");
 //        }

@@ -1,6 +1,6 @@
 package com.jyh.base;
 
-import com.jyh.Run;
+import com.jyh.TestRun;
 import lombok.extern.log4j.Log4j2;
 import org.junit.After;
 import org.junit.Before;
@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @Log4j2
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Run.class)
+@SpringBootTest(classes = TestRun.class)
 public class BaseTest {
 
     @Before

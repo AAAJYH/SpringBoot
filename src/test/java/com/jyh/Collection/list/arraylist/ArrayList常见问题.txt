@@ -1,0 +1,73 @@
+一、为什么for each中集合的remove操作会抛异常（java.util.ConcurrentModificationException）
+        List<String> list = new ArrayList<>();
+        list.add("沉默王二");
+        list.add("沉默王三");
+        list.add("一个文章真特么有趣的程序员");
+
+        for (String str : list) {
+            if ("沉默王二".equals(str)) {
+                list.remove(str);
+            }
+        }
+    上面这段代码经编译后变成下面这段代码
+        List<String> list = new ArrayList();
+        list.add("沉默王二");
+        list.add("沉默王三");
+        list.add("一个文章真特么有趣的程序员");
+        Iterator var3 = list.iterator();
+
+        while (var3.hasNext()) {
+            String str = (String) var3.next();
+            if ("沉默王二".equals(str)) {
+                list.remove(str);
+            }
+        }
+    原来for each是通过迭代器iterator配合while循环实现的，ArrayList.iterator()返回的是ArrayList的一个内部类Itr
+        public Iterator<E> iterator() {
+            return new Itr();
+        }
+        private class Itr implements Iterator<E> {
+            int cursor;       // index of next element to return
+            int lastRet = -1; // index of last element returned; -1 if no such
+            int expectedModCount = modCount;
+
+            Itr() {}
+
+            public boolean hasNext() {
+                return cursor != size;
+            }
+
+            @SuppressWarnings("unchecked")
+            public E next() {
+                checkForComodification();
+                int i = cursor;
+                Object[] elementData = ArrayList.this.elementData;
+                if (i >= elementData.length)
+                    throw new ConcurrentModificationException();
+                cursor = i + 1;
+                return (E) elementData[lastRet = i];
+            }
+        }
+    new Itr()的时候expectedModCount被赋值为modCount，modCount是List一个成员变量，表示集合被修改的次数，在执行完list.remove（remove调用的fastRemove来删除）后，modCount会被+1
+        private void fastRemove(int index) {
+            modCount++;
+            int numMoved = size - index - 1;
+            if (numMoved > 0)
+                System.arraycopy(elementData, index+1, elementData, index,
+                                 numMoved);
+            elementData[--size] = null; // clear to let GC do its work
+        }
+    这时候在调用var3.next()是，checkForComodification()回去校验modCount和expectedModCount，不相等所以就抛出了异常
+        public E next() {
+            checkForComodification();
+            int i = cursor;
+            if (i >= size)
+                throw new NoSuchElementException();
+            Object[] elementData = ArrayList.this.elementData;
+            if (i >= elementData.length)
+                throw new ConcurrentModificationException();
+            cursor = i + 1;
+            return (E) elementData[lastRet = i];
+        }
+
+    总结： list.remove是ArrayList的方法，iterator.next()是Itr的方法，混在一块用导致数据不一致，for each最好使用iterator.remove来删除

@@ -26,11 +26,12 @@ public class TransactionController {
     PlatformTransactionManager transactionManager;
 
     @Autowired
-    TransactionDao transactionDao;
+    TransactionInterface transactionInterface;
 
     @PostMapping("add")
     @Transactional
     public int add() {
+        Class clazz = transactionInterface.getClass();
         DefaultTransactionDefinition definition = new DefaultTransactionDefinition();
 
         //隔离级别
@@ -41,8 +42,7 @@ public class TransactionController {
 
         TransactionStatus status = transactionManager.getTransaction(definition);
 
-        TransactionPojo pojo = new TransactionPojo(18, "横七");
-        int count = transactionDao.insert(pojo);
+        int count = transactionInterface.insert();
         int i = 1/0;
 
         //回滚

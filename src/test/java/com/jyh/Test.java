@@ -1,9 +1,25 @@
 package com.jyh;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.io.File;
+import com.jyh.base.BaseTest;
+import com.jyh.反射.Person;
+import org.apache.commons.lang.math.RandomUtils;
+import org.springframework.data.redis.core.RedisTemplate;
+import sun.nio.cs.ext.MacArabic;
+
 import java.io.IOException;
+import java.lang.management.ManagementFactory;
+import java.lang.management.ThreadInfo;
+import java.lang.management.ThreadMXBean;
+import java.math.BigDecimal;
+import java.security.NoSuchAlgorithmException;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.LinkedTransferQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.locks.*;
 
 /**
  * @author: 姬雨航
@@ -11,51 +27,141 @@ import java.io.IOException;
  * @description：
  */
 
-public class Test {
+public class Test extends BaseTest {
+    Lock lock = new ReentrantLock();
+    Condition condition = lock.newCondition();
 
-    public static void main(String[] args) {
-
-        System.out.println(Test.md5Password("123"));
+    @org.junit.Test
+    public void hashMap() {
+        Map<String, String> map = new HashMap<>();
+        map.put("name", "zhangsan");
+        map.put("age", "19");
     }
 
-    public static String md5Password(String password) {
 
-        try {
-            // 得到一个信息摘要器
-            MessageDigest digest = MessageDigest.getInstance("md5");
-            byte[] result = digest.digest(password.getBytes());
-            StringBuffer buffer = new StringBuffer();
-            // 把每一个byte 做一个与运算 0xff;
-            for (byte b : result) {
-                // 与运算
-                int number = b & 0xff;// 加盐
-                String str = Integer.toHexString(number);
-                if (str.length() == 1) {
-                    buffer.append("0");
-                }
-                buffer.append(str);
+        public static int printFIb(int num) {
+            if (num==1||num==2) {
+                return 1;
+            }else {
+                return printFIb(num-1)+printFIb(num-2);
             }
+        }
 
-            // 标准的md5加密后的结果
-            return buffer.toString();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
+        @org.junit.Test
+        public void aa() {
+            for (int i=1;i<=10;i++) {
+                System.out.println("第"+i+"="+printFIb(i));
+            }
+        }
 
-            return "";
-        }}
-//        String a = "123";
-//        String b = "123 ";
-//        String c = null;
-//        String d = " ";
-//        String e = "";
+    @org.junit.Test
+    public void b() {
+        SimpleDateFormat s = new SimpleDateFormat("YYYYMMDDHHmmss");
+        System.out.println(s.format(new Date()));
+
+        System.out.println("1右移1" + (2 << 1));
+        System.out.println(1 ^ 0);
+        System.out.println(0 ^ 0);
+
+        List a = Collections.singletonList(1);
+        System.out.println(a.get(0));
+        List list = Arrays.asList(1, 2);
+
+        list.add(1);
+        System.out.println("123456".length());
+        ConcurrentLinkedQueue concurrentLinkedQueue = new ConcurrentLinkedQueue();
+
+        Map<String, String> map = new ConcurrentHashMap<>();
+        map.put("name", "jyh");
+
+        List<Person> l = new ArrayList<>();
+        Person person = new Person();
+        person.setAge(11);
+        person.setName("hh");
+
+        l.add(person);
+
+        person.setName("bb");
+        person.setAge(55);
+        l.add(person);
+
+        System.out.println(l);
+        new ArrayList<>(null);
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("1");
+
+    }
+
+//    public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
+//        System.out.println(8 << 2);
 //
-//        System.out.println(StringUtils.isBlank(a));
-//        System.out.println(StringUtils.isBlank(b));
-//        System.out.println(StringUtils.isBlank(c));
-//        System.out.println(StringUtils.isBlank(d));
-//        System.out.println(StringUtils.isBlank(e));
+//        Map map = new ConcurrentHashMap<String, String>();
+//        map.put("1", "jyh");
+//        map.put("2", "16");
+//        map.put("3", "16");
+//        map.put("4", "16");
+//        map.put("5", "16");
+//        map.put("6", "16");
+//        map.put("7", "16");
+//        map.put("8", "16");
+//        map.put("9", "16");
+//        map.put("10", "16");
+//        map.put("11", "16");
+//        map.put("12", "16");
+//        map.put("13", "16");
+//        map.put("14", "16");
+//        map.put("15", "16");
+//        map.put("16", "16");
+//        map.put("17", "16");
+//
+//        map.get("");
+//
+//        System.out.println(1 << 30);
+//        System.out.println(1 << 16);
+//
+//        System.out.println(1 >>> 1);
+//        System.out.println(1 >>> 2);
+//        System.out.println(1 >>> 4);
+//        System.out.println(1 >>> 8);
+//        System.out.println(1 >>> 16);
+//
+//        int a = 5; // 0000 0101
+//        int b = 3; // 0000 0011
+//        a |= b; // 0000 00111
+//        System.out.println(a);
+//    }
 
-        //比大小的时候一边为空会报空指针异常
+    public void conditionWait() {
+        lock.lock();
+        try {
+            condition.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public void conditionSignal() throws InterruptedException {
+        lock.lock();
+        try {
+             condition.signal();
+        }finally {
+            lock.unlock();
+        }
+    }
+
+    @org.junit.Test
+    public void a() {
+        System.out.println(-1.0 / 0);
+        Double a = 1.1;
+        System.out.println(a);
+        b(a);
+        System.out.println(a);
+    }
+    private void b(Double a) {
+        a = 23.01;
+    }
 
 }
 
