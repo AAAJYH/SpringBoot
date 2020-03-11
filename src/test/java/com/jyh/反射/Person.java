@@ -7,7 +7,7 @@ import lombok.ToString;
 @ToString
 public class Person {
 
-    String name;
+    public String name;
     private int age;
 
     private void prvt(){

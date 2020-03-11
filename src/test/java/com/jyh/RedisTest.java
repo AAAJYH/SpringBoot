@@ -30,4 +30,7 @@ public class RedisTest{
         Vector vector=new Vector();
 
     }
+
+
+
 }

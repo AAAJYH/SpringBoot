@@ -3,7 +3,9 @@ package com.jyh;
 import com.jyh.base.BaseTest;
 import com.jyh.反射.Person;
 import org.apache.commons.lang.math.RandomUtils;
+import org.apache.lucene.codecs.MappingMultiDocsAndPositionsEnum;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.util.StringUtils;
 import sun.nio.cs.ext.MacArabic;
 
 import java.io.IOException;
@@ -95,7 +97,7 @@ public class Test extends BaseTest {
 //    public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
 //        System.out.println(8 << 2);
 //
-//        Map map = new ConcurrentHashMap<String, String>();
+//        MapMethod map = new ConcurrentHashMap<String, String>();
 //        map.put("1", "jyh");
 //        map.put("2", "16");
 //        map.put("3", "16");
@@ -153,12 +155,43 @@ public class Test extends BaseTest {
 
     @org.junit.Test
     public void a() {
-        System.out.println(-1.0 / 0);
-        Double a = 1.1;
-        System.out.println(a);
-        b(a);
-        System.out.println(a);
+        Map<String, StringBuilder> map = new HashMap<>();
+
+//        String key = map.get("name");
+//        if (key == null) {
+//            key = "name";
+//            map.put("name", "张三");
+//        }
+//        map.put("age", "20");
+        List<String> l = new ArrayList<>();
+        l.add("hhh");
+        map.computeIfAbsent("age", k -> new StringBuilder("")).append("fdsfdf");
+
+
+        System.out.println(map.get("name"));
+        System.out.println(map.get("age"));
+//        System.out.println("".equals("   "));
+//        TestA a = new TestA();
+//        a.setFlag(false);
+//        a.person = new Person();
+//        a.person.name = "123212";
+//
+//        System.out.println(a.getPerson().getName());
+//        a.setPerson(new Person());
+//        a.getPerson().setName("nihaoaaa");
+//
+//        MapMethod<String, String> map = new HashMap<>();
+//        map.put("name", "张三");
+//        a.setMap(map);
+//
+//        MapMethod<String, String> map1 = a.getMap();
+//        a.getMap().put("age", "15");
+//        map1.remove("name");
+//
+//        System.out.println(a.getPerson().toString());
+//        System.out.println(a.getMap().containsKey("name"));
     }
+
     private void b(Double a) {
         a = 23.01;
     }
