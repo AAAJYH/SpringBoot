@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="209eda35-8032-42a4-8642-d0bc7ba80888" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/README" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/README" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringBoot$Run.ic" NAME="Run Coverage Results" MODIFIED="1582097408504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jyh.java多线程编程.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SpringBoot$Test_hashMap.ic" NAME="Test.hashMap Coverage Results" MODIFIED="1582262556549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jyh.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpringBoot" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../Maven/Repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../Maven/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="755" />
+    <option name="y" value="25" />
+    <option name="width" value="1160" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectId" id="1XZ0Ae8gIcQ3PoSHACgaHrE2XIU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583902792813" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVA\Idea\ProjectLocation\SpringBoot\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RegexTest.a">
+    <configuration name="AutoCloseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdk8.优雅的关闭资源.AutoCloseTest" />
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdk8.优雅的关闭资源.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jyh.java多线程编程.Run" />
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyh.java多线程编程.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapMethod.computeIfAbsent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Collection.Map" />
+      <option name="MAIN_CLASS_NAME" value="Collection.Map.MapMethod" />
+      <option name="METHOD_NAME" value="computeIfAbsent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyh.regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jyh.regex" />
+      <option name="MAIN_CLASS_NAME" value="com.jyh.regex.RegexTest" />
+      <option name="METHOD_NAME" value="a" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jyh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jyh" />
+      <option name="MAIN_CLASS_NAME" value="com.jyh.Test" />
+      <option name="METHOD_NAME" value="a" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jyh.Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run" />
+      <item itemvalue="Application.AutoCloseTest" />
+      <item itemvalue="JUnit.Test.a" />
+      <item itemvalue="JUnit.MapMethod.computeIfAbsent" />
+      <item itemvalue="JUnit.RegexTest.a" />
+      <item itemvalue="Spring Boot.Run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegexTest.a" />
+        <item itemvalue="JUnit.MapMethod.computeIfAbsent" />
+        <item itemvalue="JUnit.Test.a" />
+        <item itemvalue="Application.AutoCloseTest" />
+        <item itemvalue="Application.Run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="209eda35-8032-42a4-8642-d0bc7ba80888" name="Default Changelist" comment="" />
+      <created>1581238166439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581238166439</updated>
+      <workItem from="1581238169700" duration="1234000" />
+      <workItem from="1581570078245" duration="13353000" />
+      <workItem from="1581751677999" duration="2020000" />
+      <workItem from="1581837273273" duration="3532000" />
+      <workItem from="1581923765182" duration="1779000" />
+      <workItem from="1582003232993" duration="4573000" />
+      <workItem from="1582091876255" duration="18631000" />
+      <workItem from="1582259617549" duration="3894000" />
+      <workItem from="1582283059970" duration="148000" />
+      <workItem from="1582284538773" duration="15865000" />
+      <workItem from="1582590042706" duration="2678000" />
+      <workItem from="1582781294145" duration="13442000" />
+      <workItem from="1583163353778" duration="1628000" />
+      <workItem from="1583203195465" duration="6679000" />
+      <workItem from="1583325888827" duration="1743000" />
+      <workItem from="1583329997779" duration="12000" />
+      <workItem from="1583374170115" duration="2882000" />
+      <workItem from="1583489306890" duration="4159000" />
+      <workItem from="1583599087807" duration="1245000" />
+      <workItem from="1583631849227" duration="17000" />
+      <workItem from="1583673695442" duration="10638000" />
+      <workItem from="1583897520199" duration="2402000" />
+      <workItem from="1588912321268" duration="2487000" />
+      <workItem from="1589010391270" duration="502000" />
+      <workItem from="1589010919403" duration="7552000" />
+      <workItem from="1589081387312" duration="59000" />
+      <workItem from="1589163117057" duration="6779000" />
+      <workItem from="1589684898661" duration="3366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589692839182">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="449" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.804@0.23.1440.804" timestamp="1589692839182" />
+    <state x="554" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589010994557">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="554" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.804@0.23.1440.804" timestamp="1589010994557" />
+    <state x="182" y="25" key="CommitChangelistDialog2" timestamp="1589685199759">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="182" y="25" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1589685199759" />
+    <state width="457" height="468" key="DebuggerActiveHint" timestamp="1589169065250">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="457" height="466" key="DebuggerActiveHint/0.23.1440.804@0.23.1440.804" timestamp="1589019085750" />
+    <state width="457" height="468" key="DebuggerActiveHint/0.23.1440.806@0.23.1440.806" timestamp="1589169065250" />
+    <state x="100" y="123" width="1240" height="603" key="DiffContextDialog" timestamp="1589685194758">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="100" y="123" width="1240" height="603" key="DiffContextDialog/0.23.1440.804@0.23.1440.804" timestamp="1589685194758" />
+    <state x="100" y="123" width="1240" height="604" key="DiffContextDialog/0.23.1440.806@0.23.1440.806" timestamp="1588917539833" />
+    <state width="1398" height="257" key="GridCell.Tab.0.bottom" timestamp="1589209919523">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589045136049" />
+    <state width="1398" height="257" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1589209919523" />
+    <state width="1398" height="257" key="GridCell.Tab.0.center" timestamp="1589209919522">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1589045136048" />
+    <state width="1398" height="257" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1589209919522" />
+    <state width="1398" height="257" key="GridCell.Tab.0.left" timestamp="1589209919521">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1589045136048" />
+    <state width="1398" height="257" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1589209919521" />
+    <state width="1398" height="257" key="GridCell.Tab.0.right" timestamp="1589209919522">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="201" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1589045136049" />
+    <state width="1398" height="257" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1589209919522" />
+    <state width="1398" height="257" key="GridCell.Tab.1.bottom" timestamp="1589209919524">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1589045136040" />
+    <state width="1398" height="257" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1589209919524" />
+    <state width="1398" height="257" key="GridCell.Tab.1.center" timestamp="1589209919523">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1589045136039" />
+    <state width="1398" height="257" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1589209919523" />
+    <state width="1398" height="257" key="GridCell.Tab.1.left" timestamp="1589209919523">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1589045136039" />
+    <state width="1398" height="257" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1589209919523" />
+    <state width="1398" height="257" key="GridCell.Tab.1.right" timestamp="1589209919524">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="318" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1589045136040" />
+    <state width="1398" height="257" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1589209919524" />
+    <state x="308" y="176" key="IDE.errors.dialog" timestamp="1588912856358">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="308" y="176" key="IDE.errors.dialog/0.23.1440.804@0.23.1440.804" timestamp="1588912856358" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1589010761237">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1589010761237" />
+    <state x="572" y="348" key="VCS.ChangelistChooser" timestamp="1588917589042">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="572" y="348" key="VCS.ChangelistChooser/0.23.1440.804@0.23.1440.804" timestamp="1588917589042" />
+    <state x="263" y="169" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589169459865">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="263" y="169" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.804@0.23.1440.804" timestamp="1589018061292" />
+    <state x="263" y="169" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.806@0.23.1440.806" timestamp="1589169459865" />
+    <state x="385" y="192" width="670" height="675" key="run.anything.popup" timestamp="1589010759308">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="385" y="192" width="670" height="675" key="run.anything.popup/0.23.1440.804@0.23.1440.804" timestamp="1589010759308" />
+    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1589010758251">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="385" y="151" width="670" height="676" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1589010758251" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jyh/regex/RegexTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java</url>
+          <line>1247</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
