@@ -1,6 +1,6 @@
 package com.jyh.proxy.jdk;
 
-public interface a {
+public interface A {
 
     public void b();
 

@@ -44,7 +44,7 @@ public class JDKDynamicProxy implements InvocationHandler {
 
         //jdk动态代理测试
 
-        a b= new JDKDynamicProxy(new RealSubject()).getProxy();
+        A b= new JDKDynamicProxy(new RealSubject()).getProxy();
 
         b.b();
 

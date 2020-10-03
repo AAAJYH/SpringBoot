@@ -1,3 +1,22 @@
-# Default ignored files
-../.idea/**
-../com/**
+# idea
+.idea
+*.iml
+
+# building
+target
+build
+tmp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+#  project
+logs/
+
+# mac
+.DS_Store

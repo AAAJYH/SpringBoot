@@ -6,7 +6,7 @@ package com.jyh.proxy.jdk;
  * @description
  */
 
-public class RealSubject implements Subject, a {
+public class RealSubject implements Subject, A {
 
 
     @Override

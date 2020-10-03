@@ -36,7 +36,10 @@ public class CGLibMethodInterceptor implements MethodInterceptor {
 
     public static void main(String[] args) {
         CGLibMethodInterceptor cgLibMethodInterceptor = new CGLibMethodInterceptor();
-        
+
+        HelloWorldCGLibImpl helloWorldCGLib = (HelloWorldCGLibImpl) cgLibMethodInterceptor.getInstance(new HelloWorldCGLibImpl());
+
+        helloWorldCGLib.showCGLibMsg();
     }
 
 }

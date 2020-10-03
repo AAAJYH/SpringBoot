@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
 
@@ -16,7 +16,7 @@ spring:
 #        prefetch: 1 #消费者每次提取消息的数量，处理成功后在提取下一条，防止消息阻塞
 
   datasource:
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&useSSL=true
+    url: jdbc:mysql://localhost:3306/test
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: qwe123
@@ -29,6 +29,26 @@ spring:
 #  redis:
 #    host: 127.0.0.1
 #    port: 6379
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/test
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost:27017/test
+
+#  kafka:
+#    # 指定kafka代理地址，可以多个
+#    bootstrap-servers: 112.126.74.67:9092
+#
+#    # =========== producer
+#    producer:
+#      retries: 0
+#      # 每次批量发送消息的数量
+#      batch-size: 16384
+#      buffer-memory: 33554432
+#
+#    # ========== consumer
+#    consumer:
+#      group-id: user-log-group
+#      auto-offset-reset: earliest
+#      enable-auto-commit: true
+#      auto-commit-interval: 100
+
+

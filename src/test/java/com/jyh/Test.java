@@ -2,26 +2,16 @@ package com.jyh;
 
 import com.jyh.base.BaseTest;
 import com.jyh.反射.Person;
-import org.apache.commons.lang.math.RandomUtils;
-import org.apache.lucene.codecs.MappingMultiDocsAndPositionsEnum;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.util.StringUtils;
-import sun.nio.cs.ext.MacArabic;
+import org.springframework.util.Assert;
+import org.xerial.snappy.Snappy;
 
-import java.io.IOException;
-import java.lang.management.ManagementFactory;
-import java.lang.management.ThreadInfo;
-import java.lang.management.ThreadMXBean;
-import java.math.BigDecimal;
-import java.security.NoSuchAlgorithmException;
-import java.text.DecimalFormat;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.LinkedTransferQueue;
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.locks.*;
+import java.util.zip.GZIPInputStream;
 
 /**
  * @author: 姬雨航
@@ -196,5 +186,107 @@ public class Test extends BaseTest {
         a = 23.01;
     }
 
+    @org.junit.Test
+    public void bbb() {
+        Map<String, String> map1 = new HashMap<>();
+        map1.computeIfAbsent("name", this::ddd);
+
+        Assert.isTrue(true, "");
+    }
+
+    public String ddd(String name) {
+        return "bbb";
+    }
+
+    @org.junit.Test
+    public void ccc() {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        for (Integer integer : list) {
+            list.remove(integer);
+        }
+
+//        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+//        for (Integer integer : list) {
+//            list.remove(integer);
+//        }
+    }
+
+    @org.junit.Test
+    public void cccc() throws IOException {
+        String dataString = "The quick brown fox jumps over the lazy dog";
+        byte[] compressed = Snappy.compress(dataString.getBytes("UTF-8"));
+        byte[] uncompressed = Snappy.uncompress(compressed);
+        String result = new String(uncompressed, "UTF-8");
+        System.out.println(result);
+    }
+
+    @org.junit.Test
+    public void abc() throws IOException {
+        String a = "----------------------------   �\u0001��\n" +
+                "z\n" +
+                "9\n" +
+                "\b__name__\u0012-mysql_global_variables_innodb_read_io_threads\n" +
+                "\u001E\n" +
+                "\binstance\u0012\u0012192.168.31.80:9101\n" +
+                "\u000B\n" +
+                "\u0003job\u0012\u0004ser1\u0012\u0010\t\u0000\u0000\u0000\u0000\u0000\u0000\u0010@\u0010Ʋ���.\n" +
+                "t\n" +
+                "2\n" +
+                "\b\u0015|\u0004&mV|\u0000@net_retry_count\n" +
+                "\u001F\u001Du\u0014\u0013192.1\tu\f168:>v\u0000\u00002\u0015v $@\u0010�°��.    ------------------------------";
+
+//        String b = this.uncompressToString(a.getBytes());
+//        SnappyCompressorInputStream snappyCompressorInputStream = new SnappyCompressorInputStream()
+
+//        byte[] c = Base32.decode(a);
+//        System.out.println(c.toString());
+//                Remote.WriteRequest writeRequest = Remote.WriteRequest.parseFrom(a.getBytes());
+//        byte[] bytes = Snappy.uncompress(c);
+
+                Assert.isTrue(true, "");
+
+    }
+    /**
+     * "utf-8"编码解压
+     * @param bytes 要解压的字节数组
+     * @return 字节数组
+     */
+    public static String uncompressToString(byte[] bytes) {
+        return uncompressToString(bytes, "UTF-8");
+    }
+
+    /**
+     * 指定编码解压
+     * @param
+     * @param encoding 编码
+     * @return 字节数组
+     */
+    public static String uncompressToString(byte[] bytes, String encoding) {
+        if (null == bytes || bytes.length == 0) {
+            return null;
+        }
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ByteArrayInputStream bais = new ByteArrayInputStream(bytes);
+        GZIPInputStream unGzip;
+        try {
+            unGzip = new GZIPInputStream(bais);
+            byte[] buffer = new byte[256];
+            int n;
+            while ((n = unGzip.read(buffer)) >= 0) {
+                baos.write(buffer, 0, n);
+            }
+            return baos.toString(encoding);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }
+
 
